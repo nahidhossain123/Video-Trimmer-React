@@ -1,7 +1,10 @@
 import React from 'react'
+import { VideoTrimmer } from '../components/VideoTrimmer'
 
 export const Home = () => {
     return (
-        <div>Home</div>
+        <main>
+            <VideoTrimmer />
+        </main>
     )
 }
